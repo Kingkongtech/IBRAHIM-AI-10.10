@@ -30,20 +30,7 @@ france({
        let infoMess = {
           image: {url : videos[0]. thumbnail},
          caption : `\n*song name :* _${videos[0].title}_
-
-*Time :* _${videos[0].timestamp}_
-
-*Url :* _${videos[0].url}_
-
-
-_*DOWNLOADING...*_\n\n`
        }
-
-      
-
-      
-
-      
        zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
       // Obtenir le flux audio de la vidéo
       const audioStream = ytdl(urlElement, { filter: 'audioonly', quality: 'highestaudio' });
