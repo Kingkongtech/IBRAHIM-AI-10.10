@@ -26,7 +26,8 @@
 
 
    
-3, Copy the session and deploy on heroku.  
+3, Copy the session and deploy on heroku.
+4, deploy on codespace
 
    
  - ***Now [`DEPLOY`](https://dashboard.heroku.com/new?template=https://github.com/ibrahimaitech/IBRAHIM-AI-10.10).***
